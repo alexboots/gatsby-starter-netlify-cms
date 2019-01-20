@@ -18,6 +18,9 @@ export default class IndexPage extends React.Component {
             <div className="title is-italic">meso-</div>
           </a>
         </div>
+        <div className="social-links">
+          <a className="link" href="https://twitter.com/alexboots">@alexboots</a>
+        </div>
       </div>
     )
     return (
