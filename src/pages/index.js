@@ -9,15 +9,8 @@ export default class IndexPage extends React.Component {
     const { edges: posts } = data.allMarkdownRemark
 
     return(
-      <div style={{ position: 'fixed', zIndex: '-99', width: '100%', height: '100%' }}>
-        <iframe
-          frameBorder="0"
-          height="100%"
-          width="100%"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-          src="https://www.youtube.com/embed/LPmZP_lvRc8">
-        </iframe>
+      <div style={{ position: 'fixed', top: '30%', left: '45%', fontSize: '30px' }}>
+        <a href="https://en.wiktionary.org/wiki/Category:English_words_prefixed_with_meso-">meso-</a>
       </div>
     )
     return (
