@@ -8,6 +8,18 @@ export default class IndexPage extends React.Component {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
 
+    return(
+      <div style={{ position: 'fixed', zIndex: '-99', width: '100%', height: '100%' }}>
+        <iframe
+          frameBorder="0"
+          height="100%"
+          width="100%"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+          src="https://www.youtube.com/embed/LPmZP_lvRc8">
+        </iframe>
+      </div>
+    )
     return (
       <Layout>
         <section className="section">
