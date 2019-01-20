@@ -10,7 +10,7 @@ export default class IndexPage extends React.Component {
 
     return(
       <div className='container'>
-        <div className='box has-text-centered' style={{ marginTop: '80px' }}>
+        <div className='has-text-centered' style={{ marginTop: '80px' }}>
           <a className='is-size-3'
             href="https://en.wiktionary.org/wiki/Category:English_words_prefixed_with_meso-">
               meso-
