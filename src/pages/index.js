@@ -9,8 +9,13 @@ export default class IndexPage extends React.Component {
     const { edges: posts } = data.allMarkdownRemark
 
     return(
-      <div style={{ position: 'fixed', top: '30%', left: '45%', fontSize: '30px' }}>
-        <a href="https://en.wiktionary.org/wiki/Category:English_words_prefixed_with_meso-">meso-</a>
+      <div className='container'>
+        <div className='box has-text-centered' style={{ marginTop: '80px' }}>
+          <a className='is-size-3'
+            href="https://en.wiktionary.org/wiki/Category:English_words_prefixed_with_meso-">
+              meso-
+          </a>
+        </div>
       </div>
     )
     return (
